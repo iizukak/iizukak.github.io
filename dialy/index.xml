@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Dialy on iizukak_blog</title>
-    <link>https://iizukak.github.io/tags/dialy/</link>
-    <description>Recent content in Dialy on iizukak_blog</description>
+    <title>Dialies on iizukak_blog</title>
+    <link>https://iizukak.github.io/dialy/</link>
+    <description>Recent content in Dialies on iizukak_blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Sun, 19 Aug 2018 21:27:25 +0900</lastBuildDate>
     
-	<atom:link href="https://iizukak.github.io/tags/dialy/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://iizukak.github.io/dialy/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -25,15 +25,6 @@ deploy.sh というシェルスクリプトも用意されていて、これを�
 テーマ hugo-classic というテーマを利用させていただいています。シンプルで良い。
 設定ファイル リポジトリ直下の config.toml&amp;quot; で様々な設定を記述する。いまの設定は次の通り
 baseURL = &amp;quot;https://iizukak.github.io&amp;quot; languageCode = &amp;quot;ja&amp;quot; title = &amp;quot;iizukak_blog&amp;quot; theme = &amp;quot;hugo-classic&amp;quot; [[menu.</description>
-    </item>
-    
-    <item>
-      <title>Test</title>
-      <link>https://iizukak.github.io/posts/test/</link>
-      <pubDate>Sat, 18 Aug 2018 22:22:41 +0900</pubDate>
-      
-      <guid>https://iizukak.github.io/posts/test/</guid>
-      <description>foobar</description>
     </item>
     
   </channel>

@@ -6,10 +6,26 @@
     <description>Recent content on iizukak_blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 18 Aug 2018 22:22:41 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 19 Aug 2018 21:27:25 +0900</lastBuildDate>
     
 	<atom:link href="https://iizukak.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hugo でこのサイトを構築した</title>
+      <link>https://iizukak.github.io/dialy/2018/2018_08_19/</link>
+      <pubDate>Sun, 19 Aug 2018 21:27:25 +0900</pubDate>
+      
+      <guid>https://iizukak.github.io/dialy/2018/2018_08_19/</guid>
+      <description>定期的にブログ的なものを作ってみたくなるのはしょうがないことで、今回は Hugo を使って作ってみたのがこのサイトです。Hugo に関しては公式以外にも情報がたくさん出ているのだけれど、公式のドキュメントがしっかりしていて、公式のドキュメントだけで環境構築できたのですが、一応メモを残す。
+Windows でのインストール 今回は Windows 10 で環境を作った。公式のドキュメントは ここ。ソースコードからインストールする方法もあるのだけれど、Github 上でビルド済バイナリが配布されているのでそれを DL して配置して、環境変数 PATH に追加するだけ。インストール時のバージョンは、
+$ hugo version Hugo Static Site Generator v0.47 windows/amd64 BuildDate: 2018-08-17T09:15:51Z  リポジトリ構成 Github 上で Hugo でサイトをホスティングする際の ドキュメント も公式が用意してくれている。のでこの通りにやればよかった。きもとしては、ブログのソースコードや設定情報を管理するリポジトリと、サイトのホスティング用のリポジトリを別に管理するところ。管理用リポジトリの publish ディレクトリに、ホスティング用リポジトリを submodule で紐づけておく方式になっている。リポジトリを別にする利点としては、ドラフト版とか未公開にしておきたい記事、設定情報をホスティング用のリポジトリに含めなくてよくなることだと思われる。確かにそういう要望はありそう。
+deploy.sh というシェルスクリプトも用意されていて、これを管理用リポジトリのほうに含めておいて、記事をローカルで確認した後で叩くと、ホスティング用の publish ディレクトリが push されて、ホスティングされているサイトにも反映されるという仕組み。
+コマンドメモ $ hugo new foo/bar.md  のようなコマンドで記事を作れる。このコマンドを実行すると content/foo/bar.md というファイルが作られる。ディレクトリが存在しない場合は再帰的に作られる。また、拡張子も入れないとだめ。touch コマンドでいいのではという気もするのだがよくわからない。
+テーマ hugo-classic というテーマを利用させていただいています。シンプルで良い。
+設定ファイル リポジトリ直下の config.toml&amp;quot; で様々な設定を記述する。いまの設定は次の通り
+baseURL = &amp;quot;https://iizukak.github.io&amp;quot; languageCode = &amp;quot;ja&amp;quot; title = &amp;quot;iizukak_blog&amp;quot; theme = &amp;quot;hugo-classic&amp;quot; [[menu.</description>
+    </item>
     
     <item>
       <title>Test</title>

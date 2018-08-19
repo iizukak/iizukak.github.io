@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hugo でこのサイトを構築した | iizukak_blog</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+    <header>
+
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-light.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <nav>
+    <ul>
+      
+      
+      <li class="pull-left ">
+        <a href="https://iizukak.github.io">/home/iizukak_blog</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/">~/home</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/tags/">~/tags</a>
+      </li>
+      
+
+      
+      
+      <li class="pull-right">
+        <a href="/index.xml">~/subscribe</a>
+      </li>
+      
+
+    </ul>
+  </nav>
+</header>
+
+  </head>
+
+  <body>
+    <br/>
+
+<div class="article-meta">
+<h1><span class="title">Hugo でこのサイトを構築した</span></h1>
+
+<h2 class="date">2018/08/19</h2>
+<p class="terms">
+  
+  
+  
+  
+  Tags: <a href="/tags/dialy">dialy</a> <a href="/tags/tech">tech</a> 
+  
+  
+</p>
+</div>
+
+
+
+<main>
+
+
+<p>定期的にブログ的なものを作ってみたくなるのはしょうがないことで、今回は <a href="https://gohugo.io/">Hugo</a> を使って作ってみたのがこのサイトです。Hugo に関しては公式以外にも情報がたくさん出ているのだけれど、公式のドキュメントがしっかりしていて、公式のドキュメントだけで環境構築できたのですが、一応メモを残す。</p>
+
+<h2 id="windows-でのインストール">Windows でのインストール</h2>
+
+<p>今回は Windows 10 で環境を作った。公式のドキュメントは <a href="https://gohugo.io/getting-started/installing/">ここ</a>。ソースコードからインストールする方法もあるのだけれど、Github 上でビルド済バイナリが配布されているのでそれを DL して配置して、環境変数 <code>PATH</code> に追加するだけ。インストール時のバージョンは、</p>
+
+<pre><code class="language-txt">$ hugo version
+Hugo Static Site Generator v0.47 windows/amd64 BuildDate: 2018-08-17T09:15:51Z
+</code></pre>
+
+<h2 id="リポジトリ構成">リポジトリ構成</h2>
+
+<p>Github 上で Hugo でサイトをホスティングする際の <a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/">ドキュメント</a> も公式が用意してくれている。のでこの通りにやればよかった。きもとしては、ブログのソースコードや設定情報を管理するリポジトリと、サイトのホスティング用のリポジトリを別に管理するところ。管理用リポジトリの <code>publish</code> ディレクトリに、ホスティング用リポジトリを submodule で紐づけておく方式になっている。リポジトリを別にする利点としては、ドラフト版とか未公開にしておきたい記事、設定情報をホスティング用のリポジトリに含めなくてよくなることだと思われる。確かにそういう要望はありそう。</p>
+
+<p><code>deploy.sh</code> というシェルスクリプトも用意されていて、これを管理用リポジトリのほうに含めておいて、記事をローカルで確認した後で叩くと、ホスティング用の <code>publish</code> ディレクトリが push されて、ホスティングされているサイトにも反映されるという仕組み。</p>
+
+<h2 id="コマンドメモ">コマンドメモ</h2>
+
+<pre><code>$ hugo new foo/bar.md
+</code></pre>
+
+<p>のようなコマンドで記事を作れる。このコマンドを実行すると <code>content/foo/bar.md</code> というファイルが作られる。ディレクトリが存在しない場合は再帰的に作られる。また、拡張子も入れないとだめ。<code>touch</code> コマンドでいいのではという気もするのだがよくわからない。</p>
+
+<h2 id="テーマ">テーマ</h2>
+
+<p><a href="https://github.com/goodroot/hugo-classic">hugo-classic</a> というテーマを利用させていただいています。シンプルで良い。</p>
+
+<h2 id="設定ファイル">設定ファイル</h2>
+
+<p>リポジトリ直下の <code>config.toml&quot;</code> で様々な設定を記述する。いまの設定は次の通り</p>
+
+<pre><code class="language-toml">baseURL = &quot;https://iizukak.github.io&quot;
+languageCode = &quot;ja&quot;
+title = &quot;iizukak_blog&quot;
+theme = &quot;hugo-classic&quot;
+
+[[menu.main]]
+    name = &quot;Home&quot;
+    url = &quot;/&quot;
+    weight = 1
+[[menu.main]]
+    name = &quot;Tags&quot;
+    url = &quot;/tags/&quot;
+    weight = 2
+[[menu.feed]]
+    name = &quot;Subscribe&quot;
+    url = &quot;/index.xml&quot;
+</code></pre>
+
+<p>ヘッダにタグとフィードへのリンクを追加してあります。</p>
+
+</main>
+
+    <footer>
+      
+<script>
+(function() {
+  function center_el(tagName) {
+    var tags = document.getElementsByTagName(tagName), i, tag;
+    for (i = 0; i < tags.length; i++) {
+      tag = tags[i];
+      var parent = tag.parentElement;
+      
+      if (parent.childNodes.length === 1) {
+        
+        if (parent.nodeName === 'A') {
+          parent = parent.parentElement;
+          if (parent.childNodes.length != 1) continue;
+        }
+        if (parent.nodeName === 'P') parent.style.textAlign = 'center';
+      }
+    }
+  }
+  var tagNames = ['img', 'embed', 'object'];
+  for (var i = 0; i < tagNames.length; i++) {
+    center_el(tagNames[i]);
+  }
+})();
+</script>
+
+      
+    </footer>
+  </body>
+</html>
+
