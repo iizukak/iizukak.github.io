@@ -3,30 +3,35 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://iizukak.github.io/posts/test/</loc>
+    <loc>https://iizukak.github.io/posts/test/</loc>
     <lastmod>2018-08-18T22:22:41+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://iizukak.github.io/</loc>
+    <loc>https://iizukak.github.io/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://iizukak.github.io/tags/dialy/</loc>
     <lastmod>2018-08-18T22:22:41+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://iizukak.github.io/tags/dialy/</loc>
+    <loc>https://iizukak.github.io/posts/</loc>
     <lastmod>2018-08-18T22:22:41+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://iizukak.github.io/posts/</loc>
+    <loc>https://iizukak.github.io/tags/</loc>
     <lastmod>2018-08-18T22:22:41+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://iizukak.github.io/tags/</loc>
+    <loc>https://iizukak.github.io/</loc>
     <lastmod>2018-08-18T22:22:41+09:00</lastmod>
     <priority>0</priority>
   </url>
