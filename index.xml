@@ -6,10 +6,23 @@
     <description>Recent content on iizukak_blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 19 Aug 2018 21:27:25 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 20 Aug 2018 21:22:03 +0900</lastBuildDate>
     
 	<atom:link href="https://iizukak.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Arty Z7 &#43; FPGA で L チカ</title>
+      <link>https://iizukak.github.io/dialy/2018/2018_08_20/</link>
+      <pubDate>Mon, 20 Aug 2018 21:22:03 +0900</pubDate>
+      
+      <guid>https://iizukak.github.io/dialy/2018/2018_08_20/</guid>
+      <description>L チカ Arty Z7 を買ったのでとりあえず L チカするところまでやった。メーカーの Digilent が親切な チュートリアル を出しているので、それに従って手順を実行するだけ。Vivado とボードの設定ファイルのインストール方法は 別ドキュメント になっている。
+Xilinx の FPGA の IDE であるところの Vivado が 20GB もストレージ容量を使ってびっくりなんですが、他にびっくりしている人はあんまりいなそうなので、こんなもんなのだろうか。いまはネイティブの Windows マシンではなくて、Mac に 64GB のパーティションを切って Windows 10 をインストールしているので、Vivado に 20GB もっていかれると割と容量がカツカツになってしまう。ネイティブの Windows マシンが一台あってもよいなと思うのだけれど、ほしいスペックまであげると、20 万円コースだからなぁ。限界まで Bootcamp で粘ることになりそう。
+HDMI 出力デモ Arty Z7 に HDMI 出力のデモが ある ので、こちらもビルドしてみようとしたのだけれど、これが動かない。フォーラムを検索したところ 2016.4 の Vivado でしか動かないとのこと。最新が 2018.2 なので自分はこれを使っているのでした。ボード作っているメーカーが最新の IDE に対応する気配がないのはいただけないような気がするのだけれど。少し直せないかなと頑張ってみたものの動かなさそう。
+でも HDMI 出力はしたいので、HDMI の規格を調べ始めたりしていた。
+GPD Win 別件で会社で昼休みに趣味開発したい、という思いがあるので GPD Win がほしい気もするが、こっちも 8 万円とかするし、ガシガシ使うかと言われれば微妙な気はする。SSD は 128GB あるようなので、Vivado 使っても安心&amp;hellip;?</description>
+    </item>
     
     <item>
       <title>Hugo でこのサイトを構築した</title>
