@@ -6,13 +6,29 @@
     <description>Recent content in Dialy on iizukak_blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 20 Aug 2018 21:22:03 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 21 Aug 2018 21:23:50 +0900</lastBuildDate>
     
 	<atom:link href="https://iizukak.github.io/tags/dialy/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Arty Z7 &#43; FPGA で L チカ</title>
+      <title>2018_08_21</title>
+      <link>https://iizukak.github.io/dialy/2018/2018_08_21/</link>
+      <pubDate>Tue, 21 Aug 2018 21:23:50 +0900</pubDate>
+      
+      <guid>https://iizukak.github.io/dialy/2018/2018_08_21/</guid>
+      <description>TinyFPGA が日本でも買えるように。取り寄せだけど TinyFPGA という Lattice の FPGA が乗った基板があるのですが、これがスイッチサイエンスから取り寄せ可能になったらしい。これはほしい。Lattice の FPGA 一枚も持っていないし…
+たぶん Maker 向けの製品なのだろうと思うのですが、具体的にはどんな用途を想定しているのだろうか。信号処理系なのかなぁ。レイテンシが必要とされるような楽器みたいなものには使えそうな気はする。映像の処理に使おうと思ったら非力そう。Raspberry Pi とくっつけて、センサの入力を並列で受け取るみたいなのはできそう。まぁいろいろ使い勝手はあるのかな。純粋に HDL の練習用にもよさそう。RISC-V が動くのかな、厳しいかな。
+もう少ししたら取り寄せではなくどこかで一般販売されるような気もするので、とりあえずそれを待つ。
+ハリスハリス本読み進める SystemVerilog の章を地道に読み勧めている。今月中に読み終わればいいなくらい。FPGA プログラミング大全は、HDL わかっている前提なので、ハリスハリスの本で予習しておこうという次第。構造化プログラミングとか遅延とかあたり。本を読もうと思うと会社の昼休みを駆使することになり、必然的にお昼ご飯がコンビニかパン的なものになってしまうので、なにか朝買えて冷蔵庫にしまっておける、栄養によさそうなものがあればいいのだけれど。
+Arty Z7 こちらは特にきょうはやっていない。ジャンパの設定を読み進めるくらい。
+AWS F1 インスタンスでアクセラレータ、面白そう 最近は Domain Specific Architecture という概念が今後のコンピューティング界隈で重要になっていくという妄想があって、そうなったらよいなぁと思って FPGA をさわったりしている。AWS F1 インスタンスというのが去年でて、これは FPGA をクラウド上で使えるというやつ。Xilinx の UltraScale が使えるようなので、個人で UltraScale の FPGA ボードを買うよりも全然コスパはよさそう。
+ググってもあまり導入しました、みたいな記事はでてこない。試してみた系はちらほら。FPGA でアクセラレータ作ったとかかなりかっこいいのでどんどん公開してほしいなぁと思ったり。
+個人的にも、何かのアルゴリズムのアクセラレータを作ってみたい気持ちはある。ターゲットは未定。</description>
+    </item>
+    
+    <item>
+      <title>Arty Z7 で L チカ</title>
       <link>https://iizukak.github.io/dialy/2018/2018_08_20/</link>
       <pubDate>Mon, 20 Aug 2018 21:22:03 +0900</pubDate>
       
