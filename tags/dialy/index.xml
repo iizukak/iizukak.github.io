@@ -6,10 +6,36 @@
     <description>Recent content in Dialy on iizukak_blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Wed, 22 Aug 2018 21:51:25 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 24 Aug 2018 21:26:36 +0900</lastBuildDate>
     
 	<atom:link href="https://iizukak.github.io/tags/dialy/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2018_08_24</title>
+      <link>https://iizukak.github.io/dialy/2018/2018_08_24/</link>
+      <pubDate>Fri, 24 Aug 2018 21:26:36 +0900</pubDate>
+      
+      <guid>https://iizukak.github.io/dialy/2018/2018_08_24/</guid>
+      <description>ハリスハリス本 SystemVerilog の章が読み終わった。HDL についてはだいぶ復習できた気がする。
+Forth CPU 計画 HDL の教科書を読みはしたけど書いたことはあまりないので、小さなプロジェクトを作って試してみたい。それで思いついたのがプログラミング言語 Forth の CPU 。CPU というほど Central であるかどうかは怪しいが、少なくとも Forth 言語 -&amp;gt; Forth アセンブラ -&amp;gt; Forth 機械語に変換して実行するところを HDL で作るのは理屈上ではそれほど難しくなさそうな気がする。
+参考になりそうなところでいうと、 J1 Forth CPU とうのがあるようだ。
+Forth CPU を単に作るというのでは面白みがあまりないので、次のような特色を考える
+ コアは Chisel で実装する Maker 向け実装とする  動作するチップは絞っても良いが、ペリフェラルへのアクセスを十分に確保する  ボードの GPIO へのアクセスは SystemVerilog で書く アセンブラは Scala で実装する 実行時にシリアル通信かなにかでコマンドを実行できる  MicroPython のようなかんじ   実際の構成を考えていきたい。
+とりあえず J1 のドキュメントを読む。</description>
+    </item>
+    
+    <item>
+      <title>ブロッキング割り当て、ノンブロッキング割り当て</title>
+      <link>https://iizukak.github.io/dialy/2018/2018_08_23/</link>
+      <pubDate>Thu, 23 Aug 2018 22:07:03 +0900</pubDate>
+      
+      <guid>https://iizukak.github.io/dialy/2018/2018_08_23/</guid>
+      <description>ハリスハリス本 今日も地道に SystemVerilog の章を読み進めた。ブロッキング割り当て、ノンブロッキング割り当てあたり。それらを利用した有限状態マシンの記述。
+ノンブロッキング割り当ては、主に組み合わせ回路に使い、ブロッキング回路は順序回路に使う。なぜかといえば、組み合わせ回路においてはどの順で結線されるかという情報を制御する必要がある。例えば全加算器で、もしノンブロッキングだと、キャリーと出力値が非同期に切り替わり、意図しない出力のタイミングが生じる、などの不都合が生じる。逆に、順序回路ではクロックやリセットなどの立ち上がりエッジ単位で一括で処理を実施する必要がある。
+Verilog と System Verilog の違いについても少し。reg や wire といった信号線の宣言が、System Verilog では logic に集約されたり、などなど。
+しかしハリスハリス本は A4 サイズでけっこうかさばる。電車の中で立って読もうとするとけっこう厳しい。電子書籍ならよいのだろうか。</description>
+    </item>
     
     <item>
       <title>反脆弱プログラマ</title>

@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Dialies | iizukak_blog</title>
+    <title>ブロッキング割り当て、ノンブロッキング割り当て | iizukak_blog</title>
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/fonts.css" />
     
@@ -48,46 +48,37 @@
   <body>
     <br/>
 
+<div class="article-meta">
+<h1><span class="title">ブロッキング割り当て、ノンブロッキング割り当て</span></h1>
+
+<h2 class="date">2018/08/23</h2>
+<p class="terms">
+  
+  
+  
+  
+  Tags: <a href="/tags/dialy">dialy</a> 
+  
+  
+</p>
+</div>
 
 
-<h1>Dialies</h1>
+
+<main>
 
 
+<h2 id="ハリスハリス本">ハリスハリス本</h2>
 
+<p>今日も地道に SystemVerilog の章を読み進めた。ブロッキング割り当て、ノンブロッキング割り当てあたり。それらを利用した有限状態マシンの記述。</p>
 
-<ul>
-  
-  <li>
-    <span class="date">2018/08/24</span>
-    <a href="/dialy/2018/2018_08_24/">2018_08_24</a>
-  </li>
-  
-  <li>
-    <span class="date">2018/08/23</span>
-    <a href="/dialy/2018/2018_08_23/">ブロッキング割り当て、ノンブロッキング割り当て</a>
-  </li>
-  
-  <li>
-    <span class="date">2018/08/22</span>
-    <a href="/dialy/2018/2018_08_22/">反脆弱プログラマ</a>
-  </li>
-  
-  <li>
-    <span class="date">2018/08/21</span>
-    <a href="/dialy/2018/2018_08_21/">2018_08_21</a>
-  </li>
-  
-  <li>
-    <span class="date">2018/08/20</span>
-    <a href="/dialy/2018/2018_08_20/">Arty Z7 で L チカ</a>
-  </li>
-  
-  <li>
-    <span class="date">2018/08/19</span>
-    <a href="/dialy/2018/2018_08_19/">Hugo でこのサイトを構築した</a>
-  </li>
-  
-</ul>
+<p>ノンブロッキング割り当ては、主に組み合わせ回路に使い、ブロッキング回路は順序回路に使う。なぜかといえば、組み合わせ回路においてはどの順で結線されるかという情報を制御する必要がある。例えば全加算器で、もしノンブロッキングだと、キャリーと出力値が非同期に切り替わり、意図しない出力のタイミングが生じる、などの不都合が生じる。逆に、順序回路ではクロックやリセットなどの立ち上がりエッジ単位で一括で処理を実施する必要がある。</p>
+
+<p>Verilog と System Verilog の違いについても少し。<code>reg</code> や <code>wire</code> といった信号線の宣言が、System Verilog では <code>logic</code> に集約されたり、などなど。</p>
+
+<p>しかしハリスハリス本は A4 サイズでけっこうかさばる。電車の中で立って読もうとするとけっこう厳しい。電子書籍ならよいのだろうか。</p>
+
+</main>
 
     <footer>
       
