@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ゲームボーイに寄り道 | iizukak_blog</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+    <header>
+
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-light.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <nav>
+    <ul>
+      
+      
+      <li class="pull-left ">
+        <a href="https://iizukak.github.io">/home/iizukak_blog</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/">~/home</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/tags/">~/tags</a>
+      </li>
+      
+
+      
+      
+      <li class="pull-right">
+        <a href="/index.xml">~/subscribe</a>
+      </li>
+      
+
+    </ul>
+  </nav>
+</header>
+
+  </head>
+
+  <body>
+    <br/>
+
+<div class="article-meta">
+<h1><span class="title">ゲームボーイに寄り道</span></h1>
+
+<h2 class="date">2018/08/26</h2>
+<p class="terms">
+  
+  
+  
+  
+  Tags: <a href="/tags/dialy">dialy</a> 
+  
+  
+</p>
+</div>
+
+
+
+<main>
+<p>ゲームボーイのハードウェアによるエミュレータについて少し調べた。現状コードが公開されているところでいうと、</p>
+
+<ul>
+<li>FPGABoy
+
+<ul>
+<li><a href="https://github.com/trun/fpgaboy">https://github.com/trun/fpgaboy</a></li>
+</ul></li>
+<li>VerilogBoy
+
+<ul>
+<li><a href="https://github.com/zephray/VerilogBoy">https://github.com/zephray/VerilogBoy</a></li>
+</ul></li>
+</ul>
+
+<p>あたりがありそう。</p>
+
+<p>CPU 情報としては</p>
+
+<ul>
+<li>Gameboy CPU Manual
+
+<ul>
+<li><a href="http://marc.rawer.de/Gameboy/Docs/GBCPUman.pdf">http://marc.rawer.de/Gameboy/Docs/GBCPUman.pdf</a></li>
+</ul></li>
+<li>VerilogBoy のドキュメント
+
+<ul>
+<li><a href="https://github.com/zephray/VerilogBoy/blob/refactor/doc/cpu.md">https://github.com/zephray/VerilogBoy/blob/refactor/doc/cpu.md</a></li>
+</ul></li>
+<li>DMB Schematics
+
+<ul>
+<li><a href="http://gbdev.gg8.se/wiki/articles/DMG_Schematics">http://gbdev.gg8.se/wiki/articles/DMG_Schematics</a></li>
+</ul></li>
+</ul>
+
+<p>あたりがありそう。</p>
+
+<p>ところで、ソフトウェアではなくハードウェアでゲームボーイを作るのはなぜかというと、</p>
+
+<ol>
+<li>面白いから</li>
+<li>正確なクロックでエミュレートできる
+
+<ul>
+<li>ソフトウェアだと命令になんクロックかかったかとか制御し辛い？</li>
+</ul></li>
+<li>省電力</li>
+<li>FPGA ボードが使いやすくなってきているから</li>
+</ol>
+
+<p>というところだろうか。
+特に 1 については LSDJ とか使っている人は気にしそうなところではある。</p>
+
+<p>趣味でちゃんと作ろうとしたら何年もかかりそうなやつだなぁ。いくつか既存プロジェクトはあるが、現状で実用レベルに達しているものはなさそうなかんじ。</p>
+
+</main>
+
+    <footer>
+      
+<script>
+(function() {
+  function center_el(tagName) {
+    var tags = document.getElementsByTagName(tagName), i, tag;
+    for (i = 0; i < tags.length; i++) {
+      tag = tags[i];
+      var parent = tag.parentElement;
+      
+      if (parent.childNodes.length === 1) {
+        
+        if (parent.nodeName === 'A') {
+          parent = parent.parentElement;
+          if (parent.childNodes.length != 1) continue;
+        }
+        if (parent.nodeName === 'P') parent.style.textAlign = 'center';
+      }
+    }
+  }
+  var tagNames = ['img', 'embed', 'object'];
+  for (var i = 0; i < tagNames.length; i++) {
+    center_el(tagNames[i]);
+  }
+})();
+</script>
+
+      
+    </footer>
+  </body>
+</html>
+
