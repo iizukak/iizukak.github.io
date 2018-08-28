@@ -6,10 +6,31 @@
     <description>Recent content in Dialy on iizukak_blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 26 Aug 2018 22:02:40 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 28 Aug 2018 22:16:30 +0900</lastBuildDate>
     
 	<atom:link href="https://iizukak.github.io/tags/dialy/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>『反脆弱性 上』 読了</title>
+      <link>https://iizukak.github.io/dialy/2018/2018_08_28/</link>
+      <pubDate>Tue, 28 Aug 2018 22:16:30 +0900</pubDate>
+      
+      <guid>https://iizukak.github.io/dialy/2018/2018_08_28/</guid>
+      <description>Forth CPU を作るとしたら、いっそのこと J1 を Chisel で実装するだけ、とかにしたほうが良いのかもと思った。実際、自分で ISA 作るよりもうまく設計されているだろうし…、勉強のためにはよいかもしれない。
+技術書展の案内がきていた。締め切りまで三週間とかなので結構厳しそうだがどうかな…、書くとしたら Chisel のことになりそうだが間に合うかどうか。
+反脆弱性は上巻が読了した。面白いので下巻も読もう。</description>
+    </item>
+    
+    <item>
+      <title>Z80 から学ぶ</title>
+      <link>https://iizukak.github.io/dialy/2018/2018_08_27/</link>
+      <pubDate>Mon, 27 Aug 2018 22:07:37 +0900</pubDate>
+      
+      <guid>https://iizukak.github.io/dialy/2018/2018_08_27/</guid>
+      <description>『Z80 アセンブラ入門』という本を持っていたのでなんとなく読んでいる。GameBoy の CPU であるところの 35902 との共通点も多くけっこう参考になる。電車の中でも読みやすい分厚さ。
+反脆弱性本はそろそろ上巻が終わる。わりと面白くなってきた。選択肢のアップサイドとダウンサイドの非対称性に着目しようみたいな話はあまり聞いたことがなかったので参考になるかも。</description>
+    </item>
     
     <item>
       <title>ゲームボーイに寄り道</title>
