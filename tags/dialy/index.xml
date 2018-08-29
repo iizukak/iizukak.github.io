@@ -6,13 +6,26 @@
     <description>Recent content in Dialy on iizukak_blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Tue, 28 Aug 2018 22:16:30 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 29 Aug 2018 22:03:43 +0900</lastBuildDate>
     
 	<atom:link href="https://iizukak.github.io/tags/dialy/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>『反脆弱性 上』 読了</title>
+      <title>Demo or Die...?</title>
+      <link>https://iizukak.github.io/dialy/2018/2018_08_29/</link>
+      <pubDate>Wed, 29 Aug 2018 22:03:43 +0900</pubDate>
+      
+      <guid>https://iizukak.github.io/dialy/2018/2018_08_29/</guid>
+      <description>プレゼン 今日はプレゼン。反省点多し。資料作成に気が行ってしまい、出席者を置いてけぼりにしてしまった感あり。 あとプレゼン対象についても、理解が甘かった部分があったと思う。 プロジェクト内で解決した問題について、その過程や詳細を説明したのだが、出席者はあまりピンときてなかったようだ。 次のような要素がなかったからだと推測。
+ 興味ある分野である 自分たちにも応用できるアルゴリズムである ハッとするデモがある  さて、今回のだと 3 でいくべきだったように思う。1 は望み薄だったかもしれない。2 は可能だが、やはりそれほど困っている実感がなければ適用できてもあまりうれしく感じないだろう。そして多分あまり困っていない。3 は作ることができたがやれなかった。
+来週再チャレンジすることとした。
+ デモを用意する 対象に対する理解を深める  で、資料作成は後に回したい。 会議の出席者には実験につき合わせるかたちになってしまう少し申し訳ない気もするが…。 この実験に関しては、残り二週間くらいで完了したい。
+Gameboy Gameboy CPU Manual を読み返す。mooneye-gb の人が、Gameboy CPU Manual はけっこう嘘も含まれるよみたいなことを講演で言っていた気もするので、少し注意してみてみよう。</description>
+    </item>
+    
+    <item>
+      <title>『反脆弱性 (上)』 読了</title>
       <link>https://iizukak.github.io/dialy/2018/2018_08_28/</link>
       <pubDate>Tue, 28 Aug 2018 22:16:30 +0900</pubDate>
       
