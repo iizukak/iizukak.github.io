@@ -6,10 +6,31 @@
     <description>Recent content in Dialies on iizukak_blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Wed, 29 Aug 2018 22:03:43 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 31 Aug 2018 22:19:17 +0900</lastBuildDate>
     
 	<atom:link href="https://iizukak.github.io/dialy/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>手を動かす脳、文書を読む脳</title>
+      <link>https://iizukak.github.io/dialy/2018/2018_08_31/</link>
+      <pubDate>Fri, 31 Aug 2018 22:19:17 +0900</pubDate>
+      
+      <guid>https://iizukak.github.io/dialy/2018/2018_08_31/</guid>
+      <description>ある新しい概念を学習・研究しようとしたとき、
+ 本や資料を読む 手を動かしてやってみる  の二つを組み合わせて行うことになる。数学にしてもプログラミングにしても、どちらか片方だけということはあまりなくて、比重の問題である。で、この二つのどちらが得意かというのは人によって異なる気がする。他の人の頭のことはよくわからないが。
+少なくとも自分は手を動かすほうに比重を置いたほうがあっているように今日思った。新しい概念を吸収しなければならないので、ここ数日ひたすらドキュメントを読む作業をしていたが、捗らないし頭がぼーっとしてくる。そこで試しに手を動かすとすっと集中することができた。</description>
+    </item>
+    
+    <item>
+      <title>読書用 Android タブレット</title>
+      <link>https://iizukak.github.io/dialy/2018/2018_08_30/</link>
+      <pubDate>Thu, 30 Aug 2018 22:32:24 +0900</pubDate>
+      
+      <guid>https://iizukak.github.io/dialy/2018/2018_08_30/</guid>
+      <description>読書にいつもは iPhone SE を使っているのだけれど、画面が小さくて PDF 用に安めの Android 端末を購入した。SIM も入るモデル。これではかどるとよいのだけれど。
+仕事は資料作成。今週は資料作成で終わる勢い…</description>
+    </item>
     
     <item>
       <title>Demo or Die...?</title>
