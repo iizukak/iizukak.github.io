@@ -6,10 +6,33 @@
     <description>Recent content in Dialy on iizukak_blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Fri, 31 Aug 2018 22:19:17 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 02 Sep 2018 22:03:02 +0900</lastBuildDate>
     
 	<atom:link href="https://iizukak.github.io/tags/dialy/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>JunGi Kim サイン会</title>
+      <link>https://iizukak.github.io/dialy/2018/2018_09_02/</link>
+      <pubDate>Sun, 02 Sep 2018 22:03:02 +0900</pubDate>
+      
+      <guid>https://iizukak.github.io/dialy/2018/2018_09_02/</guid>
+      <description>昨日画集を買った JunGi Kim のサイン会が今日だったのでいってきた。とにかく書くのが早いし正確。なんかライブで描くのを見るのも価値があるなと思った。ペアプロですばやく適当なコードをどんどん書いていく人を見ているのとなんか似ている心境となった。</description>
+    </item>
+    
+    <item>
+      <title>CHIP-8 知る</title>
+      <link>https://iizukak.github.io/dialy/2018/2018_09_01/</link>
+      <pubDate>Sat, 01 Sep 2018 22:12:26 +0900</pubDate>
+      
+      <guid>https://iizukak.github.io/dialy/2018/2018_09_01/</guid>
+      <description>CHIP-8 いろいろと FPGA でプロセッサを実装することについて調べていると、CHIP-8 というものにいきついた。英語圏ではゲームボーイやファミコンなどのエミュレータを実装する前段階として、CHIP-8 を実装することが多いようだ。
+CHIP-8 は、8 ビットマシンで、命令長は 2 Byte 固定、命令数も 35 と小さく実装しやすい。Verilog や SystemVerilog での実装も Github 上にいくつか確認できた。どうやら SystemVerilog で CHIP-8 を実装することを大学の課題として出しているところがあるらしい。
+CHIP-8 は実際の計算機ではなく、インタプリタ言語として開発されたようだ。
+近所のギャラリーで 中野ブロードウェイで JunGi Kim という漫画家の個展が開催されていたので見に行ってみた。この方については、何年か前にやはり中野ブロードウェイで個展をやられていたときに気になっていたのであった。
+さらに、aokizm という作家の個展が商店街でやっていたので見に行った。T シャツを買っても良かったかもしれない。人柄が良さそうであった。シールセットを購入。
+あまり遠くの美術館などに足を運べないので、近場でアートを見られるところがあるのは良い。</description>
+    </item>
     
     <item>
       <title>手を動かす脳、文書を読む脳</title>
