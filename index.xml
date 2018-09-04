@@ -6,10 +6,23 @@
     <description>Recent content on iizukak_blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 03 Sep 2018 22:20:55 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 04 Sep 2018 21:46:09 +0900</lastBuildDate>
     
 	<atom:link href="https://iizukak.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>コンテナはじめました</title>
+      <link>https://iizukak.github.io/dialy/2018/2018_09_04/</link>
+      <pubDate>Tue, 04 Sep 2018 21:46:09 +0900</pubDate>
+      
+      <guid>https://iizukak.github.io/dialy/2018/2018_09_04/</guid>
+      <description>Docker のチュートリアルを半分くらいまでやった。プロジェクトで使っている Dockerfile を読めるようにはなったかなというかんじ。docker-compose の役割あたりもわかった。
+直近の目標では
+ Dockerfile かけるようになる MPI 使えるようにする コンテナ内で Graph500 のコード動くようにする  その次
+ AWS の小さめのインスタンスにデプロイして使えるようにする  あたりが目標。
+仕事はバージョン管理システムの検証。わりと良い進捗が出せた。</description>
+    </item>
     
     <item>
       <title>Docker で MPI は使いづらい？</title>
