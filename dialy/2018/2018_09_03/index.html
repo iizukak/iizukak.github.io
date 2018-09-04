@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Tags | iizukak_blog</title>
+    <title>Docker で MPI は使いづらい？ | iizukak_blog</title>
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/fonts.css" />
     
@@ -27,7 +27,7 @@
       </li>
       
       
-      <li class="pull-left current">
+      <li class="pull-left ">
         <a href="/tags/">~/tags</a>
       </li>
       
@@ -48,26 +48,54 @@
   <body>
     <br/>
 
+<div class="article-meta">
+<h1><span class="title">Docker で MPI は使いづらい？</span></h1>
 
-<h1>Tags</h1>
+<h2 class="date">2018/09/03</h2>
+<p class="terms">
+  
+  
+  
+  
+  Tags: <a href="/tags/dialy">dialy</a> 
+  
+  
+</p>
+</div>
 
-<ul class="terms">
-  
-  <li>
-    <a href="/tags/dialy">
-      dialy
-    </a>
-    (15)
-  </li>
-  
-  <li>
-    <a href="/tags/tech">
-      tech
-    </a>
-    (1)
-  </li>
-  
+
+
+<main>
+<p>Green500 のサンプルコードを実行したいと思っているのだが、MPI が使われていてこれが Docker では動かないらしい。HPC 用のコンテナ技術として、Singurality というのがあるようで、こちらだと MPI やらなにやら HPC 関連に特化したコンテナになっているようだ。使い勝手がよければ使ってみても良い。</p>
+
+<p>一瞬考えた計画としては</p>
+
+<ul>
+<li>手元のコンテナで Graph500 リファレンス実装を動かす　</li>
+<li>AWS の弱いインスタンスでリファレンス実装を動かす</li>
+<li>AWS の強いインスタンス(スポットインスタンス)でリファレンス実装を動かす
+
+<ul>
+<li>ここまではリファレンス実装でいける想定</li>
+</ul></li>
+<li>AWS のノードをいくつか使ってベンチマークをとる
+
+<ul>
+<li>リファレンス実装のままでいけるのか？</li>
+</ul></li>
+<li>AWS の GPU インスタンスでベンチマーク</li>
+<li>AWS の FPGA インスタンスでベンチマーク
+
+<ul>
+<li>Xilinx SDAccell あたりを使う</li>
+</ul></li>
 </ul>
+
+<p>とりあえず Singurality を使ってみるか。だめだったら、Docker で MPI を使う方法を探っていくことにする。</p>
+
+<p>仕事はバージョンコントロールシステムの評価。ぼちぼちの進捗。</p>
+
+</main>
 
     <footer>
       
