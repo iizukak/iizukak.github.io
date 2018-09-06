@@ -6,10 +6,30 @@
     <description>Recent content on iizukak_blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Tue, 04 Sep 2018 21:46:09 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 06 Sep 2018 22:01:58 +0900</lastBuildDate>
     
 	<atom:link href="https://iizukak.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>CC-8 はじめました</title>
+      <link>https://iizukak.github.io/dialy/2018/2018_09_06/</link>
+      <pubDate>Thu, 06 Sep 2018 22:01:58 +0900</pubDate>
+      
+      <guid>https://iizukak.github.io/dialy/2018/2018_09_06/</guid>
+      <description>リポジトリを作成して、chisel-template リポジトリから空の Chisel プロジェクトをもってきた。Verilog の生成を試してみようかなというところで詰まっている。main 関数が無いというようなことで怒られているが、FAQ のほうでも無いような気もする。
+仕事はペアプロなど。最適かはわからないし疲れるが、たまにはやったほうがよい。</description>
+    </item>
+    
+    <item>
+      <title>調査は地道に</title>
+      <link>https://iizukak.github.io/dialy/2018/2018_09_05/</link>
+      <pubDate>Wed, 05 Sep 2018 22:34:39 +0900</pubDate>
+      
+      <guid>https://iizukak.github.io/dialy/2018/2018_09_05/</guid>
+      <description>仕事は地道にバージョン管理システムの調査。今週いっぱいでまとめられそうなかんじになってきた。
+Chisel 製の CHIP-8 実装の名前、CC-8 でどうでしょうか。</description>
+    </item>
     
     <item>
       <title>コンテナはじめました</title>
