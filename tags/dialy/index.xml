@@ -6,10 +6,31 @@
     <description>Recent content in Dialy on iizukak_blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Thu, 06 Sep 2018 22:01:58 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 08 Sep 2018 22:13:42 +0900</lastBuildDate>
     
 	<atom:link href="https://iizukak.github.io/tags/dialy/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Python の DSL で HDL というのもあるらしい</title>
+      <link>https://iizukak.github.io/dialy/2018/2018_09_08/</link>
+      <pubDate>Sat, 08 Sep 2018 22:13:42 +0900</pubDate>
+      
+      <guid>https://iizukak.github.io/dialy/2018/2018_09_08/</guid>
+      <description>migen
+ドキュメントを読んでるけど実用性はよくわからない。
+疲れているのでこのあたりで。</description>
+    </item>
+    
+    <item>
+      <title>資料作成、一区切り</title>
+      <link>https://iizukak.github.io/dialy/2018/2018_09_07/</link>
+      <pubDate>Fri, 07 Sep 2018 22:15:18 +0900</pubDate>
+      
+      <guid>https://iizukak.github.io/dialy/2018/2018_09_07/</guid>
+      <description>仕事は資料作成が一段落。ミーティングがいくつかあって、つつがなくといったところ。
+Chisel はドキュメントがどこを調べればいいのかよくわからんところがある。SystemVerilog とかで書いてしまったほうが楽なのかもしれない。</description>
+    </item>
     
     <item>
       <title>CC-8 はじめました</title>
