@@ -6,10 +6,19 @@
     <description>Recent content in Dialies on iizukak_blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 08 Sep 2018 22:13:42 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 09 Sep 2018 21:57:57 +0900</lastBuildDate>
     
 	<atom:link href="https://iizukak.github.io/dialy/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>FIRRTL?</title>
+      <link>https://iizukak.github.io/dialy/2018/2018_09_09/</link>
+      <pubDate>Sun, 09 Sep 2018 21:57:57 +0900</pubDate>
+      
+      <guid>https://iizukak.github.io/dialy/2018/2018_09_09/</guid>
+      <description>FIRRTL の文法を見ようとおもったが、疲れていて断念。</description>
+    </item>
     
     <item>
       <title>Python の DSL で HDL というのもあるらしい</title>
