@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Tags | iizukak_blog</title>
+    <title>Opcode 多すぎる | iizukak_blog</title>
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/fonts.css" />
     
@@ -27,7 +27,7 @@
       </li>
       
       
-      <li class="pull-left current">
+      <li class="pull-left ">
         <a href="/tags/">~/tags</a>
       </li>
       
@@ -48,26 +48,27 @@
   <body>
     <br/>
 
+<div class="article-meta">
+<h1><span class="title">Opcode 多すぎる</span></h1>
 
-<h1>Tags</h1>
+<h2 class="date">2018/09/14</h2>
+<p class="terms">
+  
+  
+  
+  
+  Tags: <a href="/tags/dialy">dialy</a> 
+  
+  
+</p>
+</div>
 
-<ul class="terms">
-  
-  <li>
-    <a href="/tags/dialy">
-      dialy
-    </a>
-    (25)
-  </li>
-  
-  <li>
-    <a href="/tags/tech">
-      tech
-    </a>
-    (1)
-  </li>
-  
-</ul>
+
+
+<main>
+<p>Julia の復習中。Opcode 関係の関数が非常に多くなるので、どうやって切り分けようか考えたが、素朴に if-elseif でやることに。というのも、値によるディスパッチは速度が遅いらしく、1 秒間に 100 万回ディスパッチするのはあまり現実的ではなさそうだから。おそらく速度がもっと足りなくなってきたら、プロファイリングしつつ LLVM-IR とか見ながら改修していくことになるんだろうなぁ。いま遅そうなのは、UInt16 と UInt8 の型キャストが多そうあたりだろうか。</p>
+
+</main>
 
     <footer>
       

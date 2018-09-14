@@ -6,10 +6,28 @@
     <description>Recent content in Dialy on iizukak_blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Wed, 12 Sep 2018 21:32:54 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 14 Sep 2018 22:46:30 +0900</lastBuildDate>
     
 	<atom:link href="https://iizukak.github.io/tags/dialy/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Opcode 多すぎる</title>
+      <link>https://iizukak.github.io/dialy/2018/2018_09_14/</link>
+      <pubDate>Fri, 14 Sep 2018 22:46:30 +0900</pubDate>
+      
+      <guid>https://iizukak.github.io/dialy/2018/2018_09_14/</guid>
+      <description>Julia の復習中。Opcode 関係の関数が非常に多くなるので、どうやって切り分けようか考えたが、素朴に if-elseif でやることに。というのも、値によるディスパッチは速度が遅いらしく、1 秒間に 100 万回ディスパッチするのはあまり現実的ではなさそうだから。おそらく速度がもっと足りなくなってきたら、プロファイリングしつつ LLVM-IR とか見ながら改修していくことになるんだろうなぁ。いま遅そうなのは、UInt16 と UInt8 の型キャストが多そうあたりだろうか。</description>
+    </item>
+    
+    <item>
+      <title>Julia のテストをいくつか</title>
+      <link>https://iizukak.github.io/dialy/2018/2018_09_13/</link>
+      <pubDate>Thu, 13 Sep 2018 22:08:03 +0900</pubDate>
+      
+      <guid>https://iizukak.github.io/dialy/2018/2018_09_13/</guid>
+      <description>よく理解していないが Julia のテストモジュールをいくつか書いた。runtest.jl で include さている各スクリプトがそのまま実行されているということなのだろうか。 @test マクロはたぶん Test モジュールに含まれているんだろうと予想。</description>
+    </item>
     
     <item>
       <title>Julia 再訪</title>
