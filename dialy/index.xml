@@ -6,10 +6,30 @@
     <description>Recent content in Dialies on iizukak_blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Fri, 14 Sep 2018 22:46:30 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 19 Sep 2018 22:08:56 +0900</lastBuildDate>
     
 	<atom:link href="https://iizukak.github.io/dialy/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Bazel ?</title>
+      <link>https://iizukak.github.io/dialy/2018/2018_09_19/</link>
+      <pubDate>Wed, 19 Sep 2018 22:08:56 +0900</pubDate>
+      
+      <guid>https://iizukak.github.io/dialy/2018/2018_09_19/</guid>
+      <description>C++ のビルドツール周りを調べている。
+IDE: Atom Build: Bazel Test: Google Test Formatter: clang-format CI: Travis  という構成を試してみようかなと。</description>
+    </item>
+    
+    <item>
+      <title>マットレスがかたい</title>
+      <link>https://iizukak.github.io/dialy/2018/2018_09_15/</link>
+      <pubDate>Sat, 15 Sep 2018 22:35:24 +0900</pubDate>
+      
+      <guid>https://iizukak.github.io/dialy/2018/2018_09_15/</guid>
+      <description>どうも新しいマットレスが固くてよく眠れなかった。今まで使っていたマットレスはだいぶ柔らかかった模様。実家から持ってきたので仕様をよく知らなかったが。
+GameBoy.jl のほうは、Opcode の処理をどうするかなぁと考え中。Opcode 型の配列にしちゃうのが一番シンプルなのかも。</description>
+    </item>
     
     <item>
       <title>Opcode 多すぎる</title>
