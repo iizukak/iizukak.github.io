@@ -1,5 +1,3 @@
-# IIZUKA Kentaro's home page
-
 飯塚健太郎 (IIZUKA Kentaro) のホームページへようこそ！
 
 ## 制作物等
@@ -36,4 +34,4 @@
 
 ## 連絡先
 
-メールで、 `iizuka.kentaro@gmail.com` までご連絡ください。
+メールにて、 `iizuka.kentaro@gmail.com` までご連絡ください。

@@ -20,3 +20,9 @@
 ```
 $ mdsite
 ```
+
+ローカルでのビルド結果確認
+
+```
+$ cd html && python3 -m http.server
+```
