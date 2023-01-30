@@ -10,7 +10,7 @@
 ## ディレクトリ構成
 
 - `markdown` ソースの Markdown ディレクトリ
-- `html` 変換後の html 格納用
+- `docs` 変換後の html 格納用
 - `mdsite.yaml` が変換用の設定ファイル。設定できる内容は mdsite の README.md に記載してある
 
 ## ビルド方法
