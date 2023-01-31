@@ -25,7 +25,7 @@
 
 ## 書籍
 
-- [Practical Developers ――機械学習時代のソフトウェア開発 ゲームアプリ/インフラ/エッジ編](https://gihyo.jp/book/2019/978-4-297-10744-4)
+- [Practical Developers ――機械学習時代のソフトウェア開発 ゲームアプリ/インフラ/エッジ編](https://gihyo.jp/book/2019/978-4-297-10744-4) (2019)
     - [Blueoil](https://github.com/blue-oil/blueoil/tree/master/blueoil) について一章書いています
 
 ## 職務経歴
