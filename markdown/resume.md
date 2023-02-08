@@ -96,6 +96,7 @@ LAMP での開発で、私は開発メンバーとして実装およびデバッ
 ## 資格
 
 - 応用情報技術者 (2022年度秋試験)
+- [Deep Learning Specialization](https://coursera.org/share/6e35705f3383f7161aea89bb2cc84dc4) on Coursera (2019年4月)
 - 普通自動車免許
 
 ## 趣味の制作物
