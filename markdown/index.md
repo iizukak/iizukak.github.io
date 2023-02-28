@@ -14,14 +14,13 @@
 
 ## リンク集
 
-- [@iizukak@mastodon.art](https://mastodon.art/@iizukak)
-    - SNS は Mastodon をメインで使っています
 - [iizukak](https://github.com/iizukak) on Github
     - ソースコード置き場
 - [iizukak](https://www.flickr.com/photos/iizukak/) on Flickr
     - 少し前の写真など
 - [iizukak](https://www.hackster.io/iizukak) on hackster.io
     - 最近電子工作してないなぁ…
+- [iizukak](https://twitter.com/iizukak) on Twitter
 
 ## 書籍
 
