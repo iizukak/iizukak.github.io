@@ -34,4 +34,4 @@
 
 ## 連絡先
 
-メールにて、 `iizuka.kentaro@gmail.com` までご連絡ください。
+メールにて、 `iizuka.kentaro(at)gmail.com` までご連絡ください。
