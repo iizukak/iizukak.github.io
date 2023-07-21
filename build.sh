@@ -2,16 +2,14 @@ set -x
 
 mdsite
 
-pandoc ./markdown/cv.md -o docs/cv.pdf \
--V documentclass=ltjsarticle \
---pdf-engine=lualatex \
--V classoption=pandoc \
--V block-headings \
--V luatexjapresetoptions=ipaex
 
-pandoc ./markdown/resume.md -o docs/resume.pdf \
--V documentclass=ltjsarticle \
---pdf-engine=lualatex \
--V classoption=pandoc \
--V block-headings \
--V luatexjapresetoptions=ipaex
+pdfTargets=("cv" "resume")
+
+for target in ${pdfTargets[@]}; do
+    pandoc ./markdown/${target}.md -o docs/${target}.pdf \
+        -V documentclass=ltjsarticle \
+        --pdf-engine=lualatex \
+        -V classoption=pandoc \
+        -V block-headings \
+        -V luatexjapresetoptions=hiragino-pron
+done
