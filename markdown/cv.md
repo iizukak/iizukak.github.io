@@ -112,4 +112,4 @@ iOS, Android アプリストアにおけるリリースの半自動化、
 ## 連絡先等
 
 - メールアドレス: `iizuka.kentaro(at)gmail.com`
-- ホームページ: `https://iizukak.github.io`,
+- ホームページ: `https://iizukak.github.io`
