@@ -1,4 +1,4 @@
-# 履歴書: 飯塚健太郎 (IIZUKA Kentaro)
+# 職務経歴書: 飯塚健太郎 (IIZUKA Kentaro)
 
 ## 概要
 

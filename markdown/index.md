@@ -3,14 +3,20 @@
 ## 制作物等
 
 - [mdsite](https://github.com/iizukak/mdsite) (2022~)
-    - Python 製のミニマルな静的サイトジェネレータ
-    - このサイトも mdsite でビルドされています
+    - ミニマルな静的サイトジェネレータ
+    - Python 製
+    - このサイトも mdsite を使ってビルドされています
 - [Blueoil](https://github.com/blue-oil/blueoil) (2018~2021)
-    - TensorFlow 1.x に対応した量子化深層学習ライブラリ
-    - チームでの開発物です。楽しかったなぁ
+    - TensorFlow 1.x に対応した極小量子化深層学習ライブラリ
+    - LeapMind でのチームでの開発物です
+- [codemirror-lang-wgsl](https://github.com/iizukak/codemirror-lang-wgsl) (2023~)
+    - Codemirror 6 用の WGSL 言語拡張
 - [Flip Dot Clock](https://www.hackster.io/iizukak/flip-dot-clock-3dd850) (2016)
     - フリップドットディスプレイを使った時計
-    - 動作音がちょっと良い
+    - 動作音が良い
+- [SUMO Simulator](https://iizukak.itch.io/sumo-simulator) (2019)
+    - 強化学習を使った実験的なゲーム
+    - [ML-Agent](https://github.com/Unity-Technologies/ml-agents) を利用
 
 ## リンク集
 
@@ -27,9 +33,10 @@
 - [Practical Developers -機械学習時代のソフトウェア開発 ゲームアプリ/インフラ/エッジ編-](https://gihyo.jp/book/2019/978-4-297-10744-4) (2019)
     - [Blueoil](https://github.com/blue-oil/blueoil/tree/master/blueoil) について一章書いています
 
-## 職務経歴
+## 履歴書、職務経歴書
 
-[cv](./cv.html) にてご覧いただけます。
+- 履歴書: [resume](./resume.html) にてご覧いただけます。
+- 職務経歴書: [cv](./cv.html) にてご覧いただけます。
 
 ## 連絡先
 
