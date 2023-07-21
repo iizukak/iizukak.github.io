@@ -21,6 +21,17 @@
 $ mdsite
 ```
 
+PDF のビルド
+
+```
+$ pandoc ./markdown/cv.md -o docs/cv.pdf \
+-V documentclass=ltjsarticle \
+--pdf-engine=lualatex \
+-V classoption=pandoc \
+-V block-headings \
+-V luatexjapresetoptions=ipaex
+```
+
 ローカルでのビルド結果確認
 
 ```

@@ -35,8 +35,8 @@
 
 ## 履歴書、職務経歴書
 
-- 履歴書: [resume](./resume.html) にてご覧いただけます。
-- 職務経歴書: [cv](./cv.html) にてご覧いただけます。
+- 履歴書: [HTML](./resume.html), [PDF](./resume.pdf) にてご覧いただけます。。
+- 職務経歴書: [HTML](./cv.html), [PDF](./cv.pdf) にてご覧いただけます。。
 
 ## 連絡先
 
