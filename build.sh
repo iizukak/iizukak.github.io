@@ -12,5 +12,5 @@ for target in ${pdfTargets[@]}; do
         -V classoption=pandoc \
         -V block-headings \
         -V fontsize=10pt \
-        -V luatexjapresetoptions=hiragino-pron
+        -V luatexjapresetoptions=ipaex
 done
