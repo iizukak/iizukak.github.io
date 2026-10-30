@@ -23,7 +23,7 @@ $ make
 ```
 
 HTML だけ、PDF だけをビルドする場合は、それぞれ `make html`、`make pdf` を使う。
-PDF は元の Markdown が更新されたときだけ再生成される。
+HTML と PDF は元のファイルが更新されたときだけ再生成される。PDF の生成オプションを変えたときは `make -B pdf` で再生成する。
 
 ローカルでのビルド結果確認
 
@@ -32,3 +32,5 @@ $ make serve
 ```
 
 ブラウザで http://localhost:8000/ を開く。ポート番号は `make serve PORT=8080` のように変更できる。
+配信中に Markdown や `mdsite.yaml` を修正すると自動でビルドし直されるので、ブラウザを再読み込みして確認する。
+停止は `Ctrl+C`。
