@@ -29,6 +29,6 @@
 
 ## 資格
 
-- 応用情報技術者試験 (2020年秋試験)
+- 応用情報技術者 (2021年度秋期試験、合格証書番号 AP-2021-10-00508)
 - [Deep Learning Specialization](https://coursera.org/share/6e35705f3383f7161aea89bb2cc84dc4) on Coursera (2019年4月)
 - 普通自動車免許
