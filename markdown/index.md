@@ -1,5 +1,10 @@
 飯塚健太郎 (IIZUKA Kentaro) のホームページへようこそ！
 
+```
+　　 ∧＿∧
+　　（　´∀｀）＜　ようこそ
+```
+
 ## 制作物等
 
 - [mdsite](https://github.com/iizukak/mdsite) (2022~)
