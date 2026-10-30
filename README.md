@@ -4,8 +4,10 @@
 
 ## ソフトウェア要件
 
-- Python 3.9 以降
+- Python 3.10 以降
+- [uv](https://docs.astral.sh/uv/)
 - [mdsite](https://github.com/iizukak/mdsite) の最新版
+    - mdsite リポジトリを clone し、`make install` でインストールする
 - pandoc
 
 ## ディレクトリ構成
