@@ -46,3 +46,7 @@ serve: build
 		$(MAKE) --no-print-directory --silent build; \
 		sleep $(WATCH_INTERVAL); \
 	done
+
+# serve の別名
+.PHONY: server
+server: serve

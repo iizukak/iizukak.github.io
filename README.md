@@ -31,6 +31,6 @@ HTML と PDF は元のファイルが更新されたときだけ再生成され�
 $ make serve
 ```
 
-ブラウザで http://localhost:8000/ を開く。ポート番号は `make serve PORT=8080` のように変更できる。
+ブラウザで http://localhost:8000/ を開く。ポート番号は `make serve PORT=8080` のように変更できる。`make server` でも同じように起動できる。
 配信中に Markdown や `mdsite.yaml` を修正すると自動でビルドし直されるので、ブラウザを再読み込みして確認する。
 停止は `Ctrl+C`。
