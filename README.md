@@ -25,5 +25,7 @@ $ ./build.sh
 ローカルでのビルド結果確認
 
 ```
-$ ./build.sh && python3 -m http.server && popd
+$ ./build.sh && python3 -m http.server -d docs
 ```
+
+ブラウザで http://localhost:8000/ を開く。
