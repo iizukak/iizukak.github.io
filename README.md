@@ -19,13 +19,16 @@
 ## ビルド方法
 
 ```
-$ ./build.sh
+$ make
 ```
+
+HTML だけ、PDF だけをビルドする場合は、それぞれ `make html`、`make pdf` を使う。
+PDF は元の Markdown が更新されたときだけ再生成される。
 
 ローカルでのビルド結果確認
 
 ```
-$ ./build.sh && python3 -m http.server -d docs
+$ make serve
 ```
 
-ブラウザで http://localhost:8000/ を開く。
+ブラウザで http://localhost:8000/ を開く。ポート番号は `make serve PORT=8080` のように変更できる。
