@@ -5,25 +5,25 @@
 
 ## 制作物等
 
-- [mdsite](https://github.com/iizukak/mdsite) (2022~)
+- [mdsite](https://github.com/iizukak/mdsite) (2022〜)
     - ミニマルな静的サイトジェネレータ
     - Python 製
     - このサイトも mdsite を使ってビルドされています
-- [Blueoil](https://github.com/blue-oil/blueoil) (2018~2021)
+- [Blueoil](https://github.com/blue-oil/blueoil) (2018〜2021)
     - TensorFlow 1.x に対応した極小量子化深層学習ライブラリ
-    - LeapMind でのチームでの開発物です
-- [codemirror-lang-wgsl](https://github.com/iizukak/codemirror-lang-wgsl) (2023~)
-    - Codemirror 6 用の WGSL 言語拡張
+    - LeapMind のチームで開発しました
+- [codemirror-lang-wgsl](https://github.com/iizukak/codemirror-lang-wgsl) (2023〜)
+    - CodeMirror 6 用の WGSL 言語拡張
 - [Flip Dot Clock](https://www.hackster.io/iizukak/flip-dot-clock-3dd850) (2016)
     - フリップドットディスプレイを使った時計
     - 動作音が良い
 - [SUMO Simulator](https://iizukak.itch.io/sumo-simulator) (2019)
     - 強化学習を使った実験的なゲーム
-    - [ML-Agent](https://github.com/Unity-Technologies/ml-agents) を利用
+    - [ML-Agents](https://github.com/Unity-Technologies/ml-agents) を利用
 
 ## リンク集
 
-- [iizukak](https://github.com/iizukak) on Github
+- [iizukak](https://github.com/iizukak) on GitHub
     - ソースコード置き場
 - [iizukak](https://www.flickr.com/photos/iizukak/) on Flickr
     - 少し前の写真など
@@ -43,7 +43,7 @@
 
 ## 連絡先
 
-メールにて、 `iizuka.kentaro(at)gmail.com` までご連絡ください。
+メールにて、`iizuka.kentaro(at)gmail.com` までご連絡ください。
 
 ```
 　　∧∧
